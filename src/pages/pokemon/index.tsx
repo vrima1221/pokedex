@@ -2,7 +2,7 @@ import PokemonList from "@/components/PokemonList";
 import { SearchForm } from "@/components/SearchForm";
 import { PokemonLink } from "@/types/PokemonListResponse";
 import { GetServerSideProps, NextPage } from "next";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 type Props = {
   pokemonList: PokemonLink[]
@@ -67,7 +67,7 @@ const PokedexPage: NextPage<Props> = ({ pokemonList }) => {
 export default PokedexPage;
 
 
-export const getServerSideProps: GetServerSideProps = async (context) => {
+export const getServerSideProps: GetServerSideProps = async () => {
   const response = await fetch(`http://localhost:5000/pokemons`);
   const pokemons = await response.json();
   
