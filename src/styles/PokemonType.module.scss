@@ -1,0 +1,70 @@
+.fire {
+  background: linear-gradient(#f08030, #dd6610);
+}
+.electric {
+  background: linear-gradient(#f8d030, #f0c108);
+}
+.bug {
+  background: linear-gradient(#a8b820, #8d9a1b);
+}
+.dark {
+  background: linear-gradient(#705848, #513f34);
+}
+.dragon {
+  background: linear-gradient(#7038f8, #4c08ef);
+}
+.fairy {
+  background: linear-gradient(#F98CFF, #F540FF);
+}
+.fighting {
+  background: linear-gradient(#c03028, #9d2721);
+}
+.flying {
+  background: linear-gradient(#a890f0, #9180c4);
+}
+.ghost {
+  background: linear-gradient(#705898, #554374);
+}
+.grass {
+  background: linear-gradient(#78c850, #5ca935);
+}
+.ground {
+  background: linear-gradient(#e0c068, #d4a82f);
+}
+.ice {
+  background: linear-gradient(#98d8d8, #69c6c6);
+}
+.normal {
+  background: linear-gradient(#a8a878, #8a8a59);
+}
+.poison {
+  background: linear-gradient(#a040a0, #803380);
+}
+.psychic {
+  background: linear-gradient(#f85888, #f61c5d);
+}
+.rock {
+  background: linear-gradient(#b8a038, #93802d);
+}
+.steel {
+  background: linear-gradient(#b8b8d0, #9797ba);
+}
+.water {
+  background: linear-gradient(#6890f0, #386ceb);
+}
+
+.types_container {
+  display: flex;
+  gap: 8px;
+
+  & div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 26px;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: capitalize;
+  }
+}

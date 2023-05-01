@@ -1,0 +1,15 @@
+.ability_container {
+  display: flex;
+  gap: 8px;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ability {
+  color: #fff;
+
+  &_hidden {
+    color: red;
+  }
+}

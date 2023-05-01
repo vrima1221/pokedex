@@ -1,0 +1,43 @@
+.pokemon {
+  &__page {
+    padding: 20px;
+    background-color: aqua;
+    min-height: 100vh;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 20px;
+    background-color: aqua;
+  }
+
+  &__link {
+    display: block;
+    padding: 8px;
+    border: 1px solid lightblue;
+    border-radius: 8px;
+    background-color: white;
+  }
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.main_image {
+  padding: 8px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.moves_list_bylvl {
+  width: max-content;
+  font-size: 24px;
+  list-style: none;
+  background-color: white;
+}

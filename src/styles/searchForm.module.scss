@@ -1,0 +1,22 @@
+.input {
+  height: 50px;
+  border: none;
+  width: 350px;
+  border-radius: 8px;
+  padding: 12px;
+
+  &::placeholder {
+    font-size: medium;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 36px;
+}
